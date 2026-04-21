@@ -1,0 +1,41 @@
+{
+  "name": "unspsc-lookup",
+  "version": "0.1.0",
+  "description": "Fast UNSPSC code lookup",
+  "type": "module",
+  "main": "index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    },
+    "./node": {
+      "types": "./node.d.ts",
+      "import": "./node.js"
+    },
+    "./data": "./dist/data/unspsc_data.bin",
+    "./package.json": "./package.json"
+  },
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "node.js",
+    "node.d.ts",
+    "dist/data/unspsc_data.bin"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Eeli Hakkarainen",
+  "license": "MIT",
+  "devDependencies": {
+    "exceljs": "^4.4.0"
+  }
+}
