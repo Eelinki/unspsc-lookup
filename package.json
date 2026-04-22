@@ -19,11 +19,13 @@
   "exports": {
     ".": {
       "types": "./index.d.ts",
-      "import": "./index.js"
+      "import": "./index.js",
+      "default": "./index.js"
     },
     "./node": {
       "types": "./node.d.ts",
-      "import": "./node.js"
+      "import": "./node.js",
+      "default": "./node.js"
     },
     "./data": "./dist/data/unspsc_data.bin",
     "./package.json": "./package.json"
