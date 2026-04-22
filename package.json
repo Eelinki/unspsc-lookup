@@ -31,7 +31,7 @@
   "scripts": {
     "build": "node build.js",
     "prepublishOnly": "node build.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test 'test/*.test.js'"
   },
   "keywords": [],
   "author": "Eeli Hakkarainen",
