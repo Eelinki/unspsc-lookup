@@ -1,6 +1,6 @@
 {
   "name": "unspsc-lookup",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Fast offline UNSPSC code lookup with embedded data",
   "repository": {
     "type": "git",
